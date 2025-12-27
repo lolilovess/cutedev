@@ -1,0 +1,80 @@
+{
+    /* --- 🧶 THE IVORY WORKSPACE HIJACK --- */
+    "workbench.colorTheme": "Default Light Modern", 
+    "editor.fontFamily": "'Comic Sans MS', 'Comic Sans', cursive",
+    "editor.fontWeight": "800",
+    "editor.fontSize": 14,
+    "editor.letterSpacing": 0.5,
+    "editor.lineHeight": 22,
+
+    /* --- 🎨 THE "NO-TRASH-WHITE" PALETTE OVERRIDE --- */
+    "workbench.colorCustomizations": {
+        "[Default Light Modern]": {
+            /* paper base: no #ffffff allowed */
+            "editor.background": "#f3efe0",
+            "sideBar.background": "#e6e1cf",
+            "activityBar.background": "#e6e1cf",
+            "editorGroupHeader.tabsBackground": "#e6e1cf",
+            "tab.inactiveBackground": "#e6e1cf",
+            "tab.activeBackground": "#f3efe0",
+            
+            /* gold hook & ink accents */
+            "editor.foreground": "#3a352f",
+            "tab.activeBorder": "#d4af37",
+            "activityBar.foreground": "#3a352f",
+            "activityBar.activeBorder": "#d4af37",
+            "editorLineNumber.foreground": "#d4af37",
+            "editorLineNumber.activeForeground": "#3a352f",
+            
+            /* character integrity: grayscale borders */
+            "sideBar.border": "#3a352f",
+            "editorGroup.border": "#3a352f",
+            "statusBar.background": "#3a352f",
+            "statusBar.foreground": "#f3efe0"
+        }
+    },
+
+    /* --- 🧶 FIXED SYNTAX STITCHING (INK ON WOOL) --- */
+    "editor.tokenColorCustomizations": {
+        "[Default Light Modern]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "comment", 
+                        "punctuation.definition.comment"
+                    ],
+                    "settings": {
+                        "foreground": "#a67c52", /* soft pink yarn */
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword", 
+                        "storage.type", 
+                        "entity.name.tag.css"
+                    ],
+                    "settings": {
+                        "foreground": "#3a352f",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": [
+                        "constant.numeric", 
+                        "support.constant.property-value.css"
+                    ],
+                    "settings": {
+                        "foreground": "#d4af37" /* golden hook */
+                    }
+                }
+            ]
+        }
+    },
+
+    /* --- 🫧 CAREFREE CLEANUP --- */
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.cursorBlinking": "smooth",
+    "workbench.editor.showTabs": "multiple"
+}
